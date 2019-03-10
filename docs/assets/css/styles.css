@@ -44,3 +44,7 @@ body {
 .app-nav {
     top: calc(15px - (0.5em * var(--base-line-height)));
 }
+
+.app-nav a {
+    padding: 0 5px;
+}
