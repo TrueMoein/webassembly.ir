@@ -48,3 +48,7 @@ body {
 .app-nav a {
     padding: 0 5px;
 }
+
+.sidebar>h1 img {
+    max-width: 35%;
+}

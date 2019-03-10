@@ -1,12 +1,4 @@
-/* ===========================================================
- * docsify sw.js
- * ===========================================================
- * Copyright 2016 @huxpro
- * Licensed under Apache 2.0
- * Register service worker.
- * ========================================================== */
-
-const RUNTIME = 'docsify'
+const RUNTIME = 'webassembly.ir'
 const HOSTNAME_WHITELIST = [
   self.location.hostname,
   'fonts.gstatic.com',
