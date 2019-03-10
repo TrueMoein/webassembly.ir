@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Sahel;
+    src: url('../fonts/Sahel.eot');
+    src: url('../fonts/Sahel.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Sahel.woff') format('woff'),
+    url('../fonts/Sahel.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Sahel;
+    src: url('../fonts/Sahel-Bold.eot');
+    src: url('../fonts/Sahel-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Sahel-Bold.woff') format('woff'),
+    url('../fonts/Sahel-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Sahel;
+    src: url('../fonts/Sahel-Black.eot');
+    src: url('../fonts/Sahel-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Sahel-Black.woff') format('woff'),
+    url('../fonts/Sahel-Black.ttf') format('truetype');
+    font-weight: 900;
+}
+
+body {
+    direction: rtl;
+    font-family: Sahel, sans-serif;
+}
+
+.markdown-section blockquote {
+    border-left: none;
+    border-right: solid 6px;
+    border-color: var(--blockquote-border-color);
+    border-radius: 5px 0 0px 5px;
+}
