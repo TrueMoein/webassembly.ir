@@ -1,8 +1,8 @@
-# WebAssembly چیست
+## WebAssembly چیست
 
 > بزودی در این سایت به معرفی وب اسمبلی خواهیم پرداخت.
 
-## ظهور WebAssembly 
+## ظهور WebAssembly
 
 مراحل نوشتن معرفی Web Assembly بزودی آغاز می‌گردد.
 

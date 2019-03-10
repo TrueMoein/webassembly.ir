@@ -36,3 +36,11 @@ body {
     border-color: var(--blockquote-border-color);
     border-radius: 5px 0 0px 5px;
 }
+
+.sidebar-nav li > a {
+    padding-right: 10px;
+}
+
+.app-nav {
+    top: calc(15px - (0.5em * var(--base-line-height)));
+}
