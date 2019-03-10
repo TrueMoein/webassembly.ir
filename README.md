@@ -1,3 +1,3 @@
 ### WebAssembly Introduction
 
-BRB
+نیاز به همکاری جامعه web
