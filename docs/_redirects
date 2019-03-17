@@ -1,4 +1,5 @@
 # Redirect default Netlify subdomain to primary domain
 https://webassembly.netlify.com/* https://webassembly.ir/:splat 301!
 https://wasm.ir/* https://webassembly.ir/:splat 301!
+http://wasm.ir/* https://webassembly.ir/:splat 301!
 /*    /index.html   200
