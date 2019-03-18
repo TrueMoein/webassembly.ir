@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
   <meta charset="UTF-8">
-  <title>معرفی WebAssembly</title>
+  <title>WebAssembly - وب اسمبلی</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="WebAssembly چیست - معرفی کاربردهای وب اسمبلی">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -16,6 +16,8 @@
 </head>
 <body>
   <div id="app">در حال بارگزاری...</div>
+  <script src="./assets/js/docsify.min.js"></script>
+  <script src="./assets/js/custom.js"></script>
   <script>
     window.$docsify = {
       homepage: 'main.md',
@@ -26,12 +28,6 @@
       themeColor: '#654EF0',
       routerMode: 'history',
       loadNavbar: true
-    }
-  </script>
-  <script src="./assets/js/docsify.min.js"></script>
-  <script>
-    if (typeof navigator.serviceWorker !== 'undefined') {
-      navigator.serviceWorker.register('sw.js')
     }
   </script>
 </body>
